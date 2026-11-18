@@ -1,2 +1,3 @@
 app/data.js linguist-generated=true
 pipeline/*.json linguist-generated=true
+prototype-v3/** linguist-vendored
