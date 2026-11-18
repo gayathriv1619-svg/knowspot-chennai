@@ -1532,7 +1532,7 @@ function drawMap(){
   const placeLbl=(x,y,txt,fs)=>{const w=txt.length*fs*.58,h=fs*1.3;return fits(x-w/2,y-h/2,w,h)};
   // area names: only the important ones when zoomed out
   const big=new Set(['besant-nagar','adyar','mylapore','alwarpet','teynampet','nungambakkam','t-nagar','anna-nagar','marina','guindy','velachery','chitlapakkam','east-tambaram','porur','tambaram','selaiyur','medavakkam','perungudi','sholinganallur','kodambakkam','egmore','royapettah','saidapet','chromepet','pallavaram','thoraipakkam','ashok-nagar','kk-nagar','vadapalani','ambattur','perambur','madipakkam']);
-  out+=Object.entries(AREAS).filter(([k,v])=>(VB.w<2200||big.has(k)||k===S.area)).map(([k,v])=>{const [x,y]=proj(v.lat,v.lon);const t=v.n.split(' · ')[0];const fs=(k===S.area?14:12)*k;return inView(x,y,200)&&placeLbl(x,y-22*k,t,fs)?`<text x="${x}" y="${y-22*k}" text-anchor="middle" font-size="${fs}" class="marea" ${halo} ${k===S.area?'style="fill:#c2410c"':''}>${esc(t)}</text>`:''}).join('');
+  out+=Object.entries(AREAS).filter(([ak,v])=>isFinite(v.lat)&&isFinite(v.lon)&&(VB.w<2200||big.has(ak)||ak===S.area)).map(([ak,v])=>{const [x,y]=proj(v.lat,v.lon);const t=v.n.split(' · ')[0];const fs=(ak===S.area?14:12)*k;return inView(x,y,200)&&placeLbl(x,y-22*k,t,fs)?`<text x="${x}" y="${y-22*k}" text-anchor="middle" font-size="${fs}" class="marea" ${halo} ${ak===S.area?'style="fill:#c2410c"':''}>${esc(t)}</text>`:''}).join('');
   if(VB.w<4200)out+=M.labels.filter(l=>(l[4]==='major'||VB.w<2600)&&inView(l[1],l[2])).map(l=>placeLbl(l[1],l[2],l[0],10.5*k)?`<text x="${l[1]}" y="${l[2]}" transform="rotate(${l[3]} ${l[1]} ${l[2]})" font-size="${10.5*k}" text-anchor="middle" dominant-baseline="middle" class="mroad" ${halo}>${esc(l[0])}</text>`:'').join('');
   // pins: grid clustering in screen space
   const vis=items.map(i=>[i,...proj(i.lat,i.lon)]).filter(([i,x,y])=>inView(x,y,60*k));
@@ -1943,7 +1943,7 @@ function route(keep){
   const y=window.scrollY;
   const my=++routeSeq;const go=()=>{if(my!==routeSeq)return;render(r,parts,params);setTimeout(()=>{gpScan();if(r==='d')gpDetail(BY[parts[1]])},60);if(r==='d'){const hi=document.querySelector('[data-hero] .im');if(hi)hi.style.viewTransitionName='hero'}
     if(keep===true)window.scrollTo(0,y);else window.scrollTo(0,0);reveal(keep===true);bell()};
-  if(keep!==true&&!vtBusy&&document.startViewTransition&&lastR&&!matchMedia('(prefers-reduced-motion: reduce)').matches){vtBusy=true;let ran=false;const g2=()=>{if(ran)return;ran=true;go()};setTimeout(()=>{if(!ran){g2();vtBusy=false}},300);try{const t=document.startViewTransition(g2);t.updateCallbackDone.catch(()=>{g2()});t.finished.catch(()=>{}).finally(()=>{vtBusy=false;g2();document.querySelectorAll('.im').forEach(x=>x.style.viewTransitionName='')})}catch(e){vtBusy=false;g2()}}else go();
+  if(keep!==true&&!vtBusy&&document.startViewTransition&&lastR&&!matchMedia('(prefers-reduced-motion: reduce)').matches){vtBusy=true;let ran=false;const g2=()=>{if(ran)return;ran=true;go()};setTimeout(()=>{if(!ran){g2();vtBusy=false}},300);try{const t=document.startViewTransition(g2);t.ready.catch(()=>{});t.updateCallbackDone.catch(()=>{g2()});t.finished.catch(()=>{}).finally(()=>{vtBusy=false;g2();document.querySelectorAll('.im').forEach(x=>x.style.viewTransitionName='')})}catch(e){vtBusy=false;g2()}}else go();
   lastR=r;
 }
 window.addEventListener('hashchange',()=>route());
