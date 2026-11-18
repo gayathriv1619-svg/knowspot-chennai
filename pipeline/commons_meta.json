@@ -1,0 +1,191 @@
+{
+ "waves": {
+  "t": "Sea waves.wav",
+  "a": "Ganesh Mohan T",
+  "l": "CC BY-SA 4.0",
+  "u": "https://commons.wikimedia.org/wiki/File:Sea_waves.wav",
+  "raw": "snd/waves.wav"
+ },
+ "koel": {
+  "t": "Eudynamys scolopaceus - Asian Koel XC476378.mp3",
+  "a": "Manoj Karingamadathil",
+  "l": "CC BY-SA 4.0",
+  "u": "https://commons.wikimedia.org/wiki/File:Eudynamys_scolopaceus_-_Asian_Koel_XC476378.mp3",
+  "raw": "snd/koel.mp3"
+ },
+ "crow": {
+  "t": "House Crow From Kuniyan Wetlands, Kerala 220507-000.wav",
+  "a": "Manoj Karingamadathil",
+  "l": "CC BY-SA 4.0",
+  "u": "https://commons.wikimedia.org/wiki/File:House_Crow_From_Kuniyan_Wetlands,_Kerala_220507-000.wav",
+  "raw": "snd/crow.wav"
+ },
+ "bell": {
+  "t": "Bell-ring.flac",
+  "a": "qubodup",
+  "l": "CC0",
+  "u": "https://commons.wikimedia.org/wiki/File:Bell-ring.flac",
+  "raw": "snd/bell.flac"
+ },
+ "pondy": {
+  "t": "Pondy Bazaar 01.jpg",
+  "a": "Ravichandar84",
+  "l": "CC BY-SA 3.0",
+  "u": "https://commons.wikimedia.org/wiki/File:Pondy_Bazaar_01.jpg",
+  "file": "img/wk/pondy.jpg"
+ },
+ "pondy2": {
+  "t": "Diwali Urban Shopping, Thiyagaraja Nagar, Chennai.jpg",
+  "a": "Arunsarv",
+  "l": "CC BY-SA 4.0",
+  "u": "https://commons.wikimedia.org/wiki/File:Diwali_Urban_Shopping,_Thiyagaraja_Nagar,_Chennai.jpg",
+  "file": "img/wk/pondy2.jpg"
+ },
+ "jasmine": {
+  "t": "Chennai jasmine vendor.jpg",
+  "a": "w:user:PlaneMad",
+  "l": "CC BY-SA 3.0",
+  "u": "https://commons.wikimedia.org/wiki/File:Chennai_jasmine_vendor.jpg",
+  "file": "img/wk/jasmine.jpg"
+ },
+ "mylapore": {
+  "t": "Mylapore tank at dawn panorama.jpg",
+  "a": "This Image was created by User:PlaneMad.\nIf you are using the image under th",
+  "l": "CC BY-SA 3.0",
+  "u": "https://commons.wikimedia.org/wiki/File:Mylapore_tank_at_dawn_panorama.jpg",
+  "file": "img/wk/mylapore.jpg"
+ },
+ "mylapore2": {
+  "t": "Kabalieswarar East Tank Street, Mylapore.jpg",
+  "a": "Jaisakthivel unom",
+  "l": "CC BY-SA 4.0",
+  "u": "https://commons.wikimedia.org/wiki/File:Kabalieswarar_East_Tank_Street,_Mylapore.jpg",
+  "file": "img/wk/mylapore2.jpg"
+ },
+ "elliot": {
+  "t": "Elliots Beach at Besant Nagar, Chennai.JPG",
+  "a": "KARTY JazZ",
+  "l": "CC BY-SA 4.0",
+  "u": "https://commons.wikimedia.org/wiki/File:Elliots_Beach_at_Besant_Nagar,_Chennai.JPG",
+  "file": "img/wk/elliot.jpg"
+ },
+ "besantroad": {
+  "t": "Besant Nagar Beach Road.JPG",
+  "a": "KARTY JazZ",
+  "l": "CC BY-SA 4.0",
+  "u": "https://commons.wikimedia.org/wiki/File:Besant_Nagar_Beach_Road.JPG",
+  "file": "img/wk/besantroad.jpg"
+ },
+ "marina": {
+  "t": "Marina Beach in Chennai.jpg",
+  "a": "Dey.sandip",
+  "l": "CC BY-SA 4.0",
+  "u": "https://commons.wikimedia.org/wiki/File:Marina_Beach_in_Chennai.jpg",
+  "file": "img/wk/marina.jpg"
+ },
+ "semmozhi": {
+  "t": "Semmozhi poonga.jpg",
+  "a": "Balajijagadesh",
+  "l": "CC0",
+  "u": "https://commons.wikimedia.org/wiki/File:Semmozhi_poonga.jpg",
+  "file": "img/wk/semmozhi.jpg"
+ },
+ "ts": {
+  "t": "Adyar TG.jpg",
+  "a": "unklar",
+  "l": "Public domain",
+  "u": "https://commons.wikimedia.org/wiki/File:Adyar_TG.jpg",
+  "file": "img/wk/ts.jpg"
+ },
+ "tower": {
+  "t": "Anna Nagar Tower Park Night View from Lake.JPG",
+  "a": "Vaikoovery",
+  "l": "CC BY 3.0",
+  "u": "https://commons.wikimedia.org/wiki/File:Anna_Nagar_Tower_Park_Night_View_from_Lake.JPG",
+  "file": "img/wk/tower.jpg"
+ },
+ "nrp": {
+  "t": "Nageswara Rao Park 1.jpg",
+  "a": "Jatin071178",
+  "l": "CC BY-SA 4.0",
+  "u": "https://commons.wikimedia.org/wiki/File:Nageswara_Rao_Park_1.jpg",
+  "file": "img/wk/nrp.jpg"
+ },
+ "georgetown": {
+  "t": "India - Chennai - Georgetown area 1 (3058689547).jpg",
+  "a": "McKay Savage from London, UK",
+  "l": "CC BY 2.0",
+  "u": "https://commons.wikimedia.org/wiki/File:India_-_Chennai_-_Georgetown_area_1_(3058689547).jpg",
+  "file": "img/wk/georgetown.jpg"
+ },
+ "h_kapali": {
+  "t": "Gopurams of Kapaleeshwarar Temple, Mylapore, Chennai, Tamil Nadu, India (2012).jpg",
+  "a": "H. Grobe",
+  "l": "CC BY 3.0",
+  "u": "https://commons.wikimedia.org/wiki/File:Gopurams_of_Kapaleeshwarar_Temple,_Mylapore,_Chennai,_Tamil_Nadu,_India_(2012).jpg",
+  "file": "img/wk/h_kapali.jpg"
+ },
+ "h_marina": {
+  "t": "Sunrise at Chennai Marina beach.jpg",
+  "a": "Irfanahmed605",
+  "l": "CC BY-SA 4.0",
+  "u": "https://commons.wikimedia.org/wiki/File:Sunrise_at_Chennai_Marina_beach.jpg",
+  "file": "img/wk/h_marina.jpg"
+ },
+ "h_birds": {
+  "t": "Two birds,adyar river estuary,chennai,tamilnadu - panoramio.jpg",
+  "a": "rajaraman sundaram",
+  "l": "CC BY 3.0",
+  "u": "https://commons.wikimedia.org/wiki/File:Two_birds,adyar_river_estuary,chennai,tamilnadu_-_panoramio.jpg",
+  "file": "img/wk/h_birds.jpg"
+ },
+ "h_central": {
+  "t": "Chennai Central Puratchi Thalaivar Dr. M.G. Ramachandran Central Railway Station.jpg",
+  "a": "Thamizhpparithi Maari",
+  "l": "CC BY-SA 4.0",
+  "u": "https://commons.wikimedia.org/wiki/File:Chennai_Central_Puratchi_Thalaivar_Dr._M.G._Ramachandran_Central_Railway_Station.jpg",
+  "file": "img/wk/h_central.jpg"
+ },
+ "h_partha": {
+  "t": "Parthasarathy-Temple-Triplicane-Chennai-7.JPG",
+  "a": "Destination8infinity",
+  "l": "CC BY-SA 3.0",
+  "u": "https://commons.wikimedia.org/wiki/File:Parthasarathy-Temple-Triplicane-Chennai-7.JPG",
+  "file": "img/wk/h_partha.jpg"
+ },
+ "h_santhome": {
+  "t": "Santhome Basilica.jpg",
+  "a": "w:user:PlaneMad",
+  "l": "CC BY-SA 2.5",
+  "u": "https://commons.wikimedia.org/wiki/File:Santhome_Basilica.jpg",
+  "file": "img/wk/h_santhome.jpg"
+ },
+ "h_valluvar": {
+  "t": "Valluvar Kottam.JPG",
+  "a": "Joe Ravi",
+  "l": "CC BY-SA 3.0",
+  "u": "https://commons.wikimedia.org/wiki/File:Valluvar_Kottam.JPG",
+  "file": "img/wk/h_valluvar.jpg"
+ },
+ "h_pondy": {
+  "t": "Pondy Bazaar 01.jpg",
+  "a": "Ravichandar84",
+  "l": "CC BY-SA 3.0",
+  "u": "https://commons.wikimedia.org/wiki/File:Pondy_Bazaar_01.jpg",
+  "file": "img/wk/h_pondy.jpg"
+ },
+ "h_jasmine": {
+  "t": "Chennai jasmine vendor.jpg",
+  "a": "w:user:PlaneMad",
+  "l": "CC BY-SA 3.0",
+  "u": "https://commons.wikimedia.org/wiki/File:Chennai_jasmine_vendor.jpg",
+  "file": "img/wk/h_jasmine.jpg"
+ },
+ "thiru": {
+  "t": "Sunrise at Thiruvanmiyur Beach.jpg",
+  "a": "Mohan Babu V",
+  "l": "CC BY-SA 4.0",
+  "u": "https://commons.wikimedia.org/wiki/File:Sunrise_at_Thiruvanmiyur_Beach.jpg",
+  "file": "img/wk/thiru.jpg"
+ }
+}

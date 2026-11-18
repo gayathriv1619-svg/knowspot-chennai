@@ -1,0 +1,6 @@
+# rejected / unverified photos
+*.rej
+*.rej.json
+*.rej2
+*.rej2.json
+.DS_Store
